@@ -15,7 +15,10 @@
 
 1. Source setup file
 
-    . [install_prefix]/share/citysim/setup.sh
+    . [install_prefix]/share/citysim/setup.sh  
+    #### For Example:  
+    . source /usr/local/share/citysim-0/setup.sh
+
 
 1. Open world
 
