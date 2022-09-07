@@ -77,10 +77,10 @@ void TrafficLightsGUIPlugin::Load(sdf::ElementPtr _sdf)
 void TrafficLightsGUIPlugin::OnKeyPress(ConstAnyPtr &_msg)
 {
   // Colors
-  auto red = std::make_pair(gazebo::common::Color::Red, "red");
-  auto yellow = std::make_pair(gazebo::common::Color::Yellow, "yellow");
-  auto green = std::make_pair(gazebo::common::Color::Green, "green");
-  auto black = gazebo::common::Color::Black;
+  auto red = std::make_pair(ignition::math::Color::Red, "red");
+  auto yellow = std::make_pair( ignition::math::Color::Yellow, "yellow");
+  auto green = std::make_pair(ignition::math::Color::Green, "green");
+  auto black = ignition::math::Color::Black;
 
   for (auto key : this->keys)
   {

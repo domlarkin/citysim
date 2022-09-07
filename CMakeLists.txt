@@ -26,7 +26,7 @@ endif (NOT CMAKE_BUILD_TYPE)
 
 find_package (Qt5Widgets REQUIRED)
 find_package (Qt5Core REQUIRED)
-find_package(gazebo 9 REQUIRED)
+find_package(gazebo 11 REQUIRED)
 
 include(GNUInstallDirs)
 

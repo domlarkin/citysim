@@ -3,7 +3,7 @@
     mkdir build
     cd build
     cmake ..
-    make install
+    make install # This may require sudo
 
 ## Updating world file
 
