@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(citysim)
 
+
+if(POLICY CMP0100)
+  cmake_policy(SET CMP0100 NEW)
+endif()
+
 set (CITYSIM_MAJOR_VERSION 0)
 set (CITYSIM_MINOR_VERSION 1)
 set (CITYSIM_PATCH_VERSION 0)
