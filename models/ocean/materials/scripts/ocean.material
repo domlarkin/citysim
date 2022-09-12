@@ -29,7 +29,7 @@ material Sand
       texture_unit
       {
         texture soil_sand_0045_01.jpg
-        filtering anistropic
+        filtering anisotropic
         max_anisotropy 16
         scale 0.5 0.5
       }

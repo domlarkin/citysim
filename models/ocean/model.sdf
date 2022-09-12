@@ -16,7 +16,8 @@
 
       Re-scaled by Louise Poubel
 -->
-<sdf version="1.4">
+<!-- <sdf version="1.4"> -->
+<sdf>
 
 <model name="ocean">
   <static>true</static>
